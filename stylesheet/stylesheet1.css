@@ -1,25 +1,39 @@
 header {
+    display: flex;
+    align-items: center;
     background-color: #3E6E8C;
-    text-align: center;
+    padding: 1rem;
 }
 
-
-#header {
+header h1 {
+    position: absolute;
+    left: 50%;
     color: #FFFFFF;
+    text-align: center;
     font-family: "Roboto";
     font-weight: bold;
-    font-size: 2.5rem;
-    margin: 0;
+    font-size: 3rem;
     padding: 0.5rem;
 }
 
+header nav {
+    margin-left: auto;
+    text-align: right;
+}
 
-main {
-    background-color: #FFFFF0;
+header nav a {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 
 footer {
     background-color: #3E6E8C;
     color: #FFFFFF;
+}
+
+footer h6 {
+    font-family: "Roboto";
+    font-weight: bold;
 }
